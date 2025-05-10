@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  RxSwift
+//  RxSwiftStudy
 //
 //  Created by 정유진 on 5/10/25.
 //

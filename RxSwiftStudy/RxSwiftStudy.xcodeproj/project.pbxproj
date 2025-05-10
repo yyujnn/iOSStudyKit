@@ -7,102 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F33B72532DCF3F6900A49099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B72522DCF3F6900A49099 /* AppDelegate.swift */; };
-		F33B72552DCF3F6900A49099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B72542DCF3F6900A49099 /* SceneDelegate.swift */; };
-		F33B72572DCF3F6900A49099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33B72562DCF3F6900A49099 /* ViewController.swift */; };
-		F33B725A2DCF3F6900A49099 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F33B72592DCF3F6900A49099 /* Base */; };
-		F33B725C2DCF3F6A00A49099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33B725B2DCF3F6A00A49099 /* Assets.xcassets */; };
-		F33B725F2DCF3F6A00A49099 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F33B725E2DCF3F6A00A49099 /* Base */; };
+		F3FC482E2DCF43EB0040DF9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC482D2DCF43EB0040DF9D /* AppDelegate.swift */; };
+		F3FC48302DCF43EB0040DF9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC482F2DCF43EB0040DF9D /* SceneDelegate.swift */; };
+		F3FC48322DCF43EB0040DF9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FC48312DCF43EB0040DF9D /* ViewController.swift */; };
+		F3FC48352DCF43EB0040DF9D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F3FC48342DCF43EB0040DF9D /* Base */; };
+		F3FC48372DCF43ED0040DF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FC48362DCF43ED0040DF9D /* Assets.xcassets */; };
+		F3FC483A2DCF43ED0040DF9D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F3FC48392DCF43ED0040DF9D /* Base */; };
+		F3FC48432DCF44060040DF9D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F3FC48422DCF44060040DF9D /* RxCocoa */; };
+		F3FC48452DCF44060040DF9D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = F3FC48442DCF44060040DF9D /* RxRelay */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F33B724F2DCF3F6900A49099 /* RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F33B72522DCF3F6900A49099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F33B72542DCF3F6900A49099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F33B72562DCF3F6900A49099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F33B72592DCF3F6900A49099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F33B725B2DCF3F6A00A49099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F33B725E2DCF3F6A00A49099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F33B72602DCF3F6A00A49099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FC482A2DCF43EB0040DF9D /* RxSwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FC482D2DCF43EB0040DF9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3FC482F2DCF43EB0040DF9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3FC48312DCF43EB0040DF9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3FC48342DCF43EB0040DF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3FC48362DCF43ED0040DF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3FC48392DCF43ED0040DF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3FC483B2DCF43ED0040DF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F33B724C2DCF3F6900A49099 /* Frameworks */ = {
+		F3FC48272DCF43EB0040DF9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FC48452DCF44060040DF9D /* RxRelay in Frameworks */,
+				F3FC48432DCF44060040DF9D /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F33B72462DCF3F6900A49099 = {
+		F3FC48212DCF43EB0040DF9D = {
 			isa = PBXGroup;
 			children = (
-				F33B72512DCF3F6900A49099 /* RxSwift */,
-				F33B72502DCF3F6900A49099 /* Products */,
+				F3FC482C2DCF43EB0040DF9D /* RxSwiftStudy */,
+				F3FC482B2DCF43EB0040DF9D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F33B72502DCF3F6900A49099 /* Products */ = {
+		F3FC482B2DCF43EB0040DF9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F33B724F2DCF3F6900A49099 /* RxSwift.app */,
+				F3FC482A2DCF43EB0040DF9D /* RxSwiftStudy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F33B72512DCF3F6900A49099 /* RxSwift */ = {
+		F3FC482C2DCF43EB0040DF9D /* RxSwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
-				F33B72522DCF3F6900A49099 /* AppDelegate.swift */,
-				F33B72542DCF3F6900A49099 /* SceneDelegate.swift */,
-				F33B72562DCF3F6900A49099 /* ViewController.swift */,
-				F33B72582DCF3F6900A49099 /* Main.storyboard */,
-				F33B725B2DCF3F6A00A49099 /* Assets.xcassets */,
-				F33B725D2DCF3F6A00A49099 /* LaunchScreen.storyboard */,
-				F33B72602DCF3F6A00A49099 /* Info.plist */,
+				F3FC482D2DCF43EB0040DF9D /* AppDelegate.swift */,
+				F3FC482F2DCF43EB0040DF9D /* SceneDelegate.swift */,
+				F3FC48312DCF43EB0040DF9D /* ViewController.swift */,
+				F3FC48332DCF43EB0040DF9D /* Main.storyboard */,
+				F3FC48362DCF43ED0040DF9D /* Assets.xcassets */,
+				F3FC48382DCF43ED0040DF9D /* LaunchScreen.storyboard */,
+				F3FC483B2DCF43ED0040DF9D /* Info.plist */,
 			);
-			path = RxSwift;
+			path = RxSwiftStudy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F33B724E2DCF3F6900A49099 /* RxSwift */ = {
+		F3FC48292DCF43EB0040DF9D /* RxSwiftStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F33B72632DCF3F6A00A49099 /* Build configuration list for PBXNativeTarget "RxSwift" */;
+			buildConfigurationList = F3FC483E2DCF43ED0040DF9D /* Build configuration list for PBXNativeTarget "RxSwiftStudy" */;
 			buildPhases = (
-				F33B724B2DCF3F6900A49099 /* Sources */,
-				F33B724C2DCF3F6900A49099 /* Frameworks */,
-				F33B724D2DCF3F6900A49099 /* Resources */,
+				F3FC48262DCF43EB0040DF9D /* Sources */,
+				F3FC48272DCF43EB0040DF9D /* Frameworks */,
+				F3FC48282DCF43EB0040DF9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RxSwift;
-			productName = RxSwift;
-			productReference = F33B724F2DCF3F6900A49099 /* RxSwift.app */;
+			name = RxSwiftStudy;
+			packageProductDependencies = (
+				F3FC48422DCF44060040DF9D /* RxCocoa */,
+				F3FC48442DCF44060040DF9D /* RxRelay */,
+			);
+			productName = RxSwiftStudy;
+			productReference = F3FC482A2DCF43EB0040DF9D /* RxSwiftStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F33B72472DCF3F6900A49099 /* Project object */ = {
+		F3FC48222DCF43EB0040DF9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					F33B724E2DCF3F6900A49099 = {
+					F3FC48292DCF43EB0040DF9D = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = F33B724A2DCF3F6900A49099 /* Build configuration list for PBXProject "RxSwift" */;
+			buildConfigurationList = F3FC48252DCF43EB0040DF9D /* Build configuration list for PBXProject "RxSwiftStudy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +118,58 @@
 				en,
 				Base,
 			);
-			mainGroup = F33B72462DCF3F6900A49099;
-			productRefGroup = F33B72502DCF3F6900A49099 /* Products */;
+			mainGroup = F3FC48212DCF43EB0040DF9D;
+			packageReferences = (
+				F3FC48412DCF44060040DF9D /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = F3FC482B2DCF43EB0040DF9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F33B724E2DCF3F6900A49099 /* RxSwift */,
+				F3FC48292DCF43EB0040DF9D /* RxSwiftStudy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F33B724D2DCF3F6900A49099 /* Resources */ = {
+		F3FC48282DCF43EB0040DF9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33B725C2DCF3F6A00A49099 /* Assets.xcassets in Resources */,
-				F33B725F2DCF3F6A00A49099 /* Base in Resources */,
-				F33B725A2DCF3F6900A49099 /* Base in Resources */,
+				F3FC48372DCF43ED0040DF9D /* Assets.xcassets in Resources */,
+				F3FC483A2DCF43ED0040DF9D /* Base in Resources */,
+				F3FC48352DCF43EB0040DF9D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F33B724B2DCF3F6900A49099 /* Sources */ = {
+		F3FC48262DCF43EB0040DF9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33B72572DCF3F6900A49099 /* ViewController.swift in Sources */,
-				F33B72532DCF3F6900A49099 /* AppDelegate.swift in Sources */,
-				F33B72552DCF3F6900A49099 /* SceneDelegate.swift in Sources */,
+				F3FC48322DCF43EB0040DF9D /* ViewController.swift in Sources */,
+				F3FC482E2DCF43EB0040DF9D /* AppDelegate.swift in Sources */,
+				F3FC48302DCF43EB0040DF9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F33B72582DCF3F6900A49099 /* Main.storyboard */ = {
+		F3FC48332DCF43EB0040DF9D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F33B72592DCF3F6900A49099 /* Base */,
+				F3FC48342DCF43EB0040DF9D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F33B725D2DCF3F6A00A49099 /* LaunchScreen.storyboard */ = {
+		F3FC48382DCF43ED0040DF9D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F33B725E2DCF3F6A00A49099 /* Base */,
+				F3FC48392DCF43ED0040DF9D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F33B72612DCF3F6A00A49099 /* Debug */ = {
+		F3FC483C2DCF43ED0040DF9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		F33B72622DCF3F6A00A49099 /* Release */ = {
+		F3FC483D2DCF43ED0040DF9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +296,7 @@
 			};
 			name = Release;
 		};
-		F33B72642DCF3F6A00A49099 /* Debug */ = {
+		F3FC483F2DCF43ED0040DF9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -293,7 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxSwift/Info.plist;
+				INFOPLIST_FILE = RxSwiftStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.study.RxSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.RxSwiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +323,7 @@
 			};
 			name = Debug;
 		};
-		F33B72652DCF3F6A00A49099 /* Release */ = {
+		F3FC48402DCF43ED0040DF9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RxSwift/Info.plist;
+				INFOPLIST_FILE = RxSwiftStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.study.RxSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.RxSwiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,25 +353,49 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F33B724A2DCF3F6900A49099 /* Build configuration list for PBXProject "RxSwift" */ = {
+		F3FC48252DCF43EB0040DF9D /* Build configuration list for PBXProject "RxSwiftStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F33B72612DCF3F6A00A49099 /* Debug */,
-				F33B72622DCF3F6A00A49099 /* Release */,
+				F3FC483C2DCF43ED0040DF9D /* Debug */,
+				F3FC483D2DCF43ED0040DF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F33B72632DCF3F6A00A49099 /* Build configuration list for PBXNativeTarget "RxSwift" */ = {
+		F3FC483E2DCF43ED0040DF9D /* Build configuration list for PBXNativeTarget "RxSwiftStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F33B72642DCF3F6A00A49099 /* Debug */,
-				F33B72652DCF3F6A00A49099 /* Release */,
+				F3FC483F2DCF43ED0040DF9D /* Debug */,
+				F3FC48402DCF43ED0040DF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F3FC48412DCF44060040DF9D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F3FC48422DCF44060040DF9D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3FC48412DCF44060040DF9D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F3FC48442DCF44060040DF9D /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3FC48412DCF44060040DF9D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = F33B72472DCF3F6900A49099 /* Project object */;
+	rootObject = F3FC48222DCF43EB0040DF9D /* Project object */;
 }

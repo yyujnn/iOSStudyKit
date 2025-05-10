@@ -1,11 +1,12 @@
 //
 //  ViewController.swift
-//  RxSwift
+//  RxSwiftStudy
 //
 //  Created by 정유진 on 5/10/25.
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
 
