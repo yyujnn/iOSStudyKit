@@ -41,3 +41,7 @@ Observable 에서 이벤트(값) 을 방출할 때는 상태를 함께 방출한
 - **`BehaviorSubject` : 초깃값이 있는 Subject. 구독시 가장 최근에 방출된 값을 받음.**
 
 - **`PublishSubject` : 초깃값이 없는 Subject. 구독 이후로 방출된 값을 받음.**
+
+🔗 [BehaviorSubject 🆚 BehaviorRelay](https://github.com/yyujnn/iOSStudyKit/issues/9)
+
+🔗 [Subject 🆚 Relay](https://github.com/yyujnn/iOSStudyKit/issues/10)
